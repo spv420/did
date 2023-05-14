@@ -39,7 +39,10 @@ Same steps as Update, but perform a Deactivate operation as specified in `did:we
 See [did-web](https://w3c-ccg.github.io/did-method-web/).
 
 ### Security
-Generally speaking, `did:spv` has similar security properties compared with `did:web`.
+As for security, if my domain (spv.sh) either expired, or was compromised, it could lead to issues, as others could take over the resolving of `did:spv` DIDs. As such, I will ensure the renewal of the domain in perpetuity, and will keep my registrar accounts secure. As well, it could present issues for those fully implementing the DID spec, as you would need to ensure internet access is possible, or at least DNS resolution -- this could expose those implementations to exploitation in some form.
 
 ### Privacy
-None, particulary.
+`did:spv` will only really be used by me (spv), and as such there are no particular wide-reaching privacy implications for implementers of the DID specification, or general users of those implications. If I (spv) am informed of any others that I have not addressed, I will ensure that they are in a timely manner.
+
+### Conclusion
+Hopefully this registration isn't too much of a bother. I'd like it to go through, and as such, if there are any other issues with my DID specification, I will be happy to resolve them.
